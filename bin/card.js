@@ -20,7 +20,7 @@ let data = {
   github: chalk.cyan("https://github.com/yshuman1"),
   linkedin: chalk.cyan("https://linkedin.com/in/yshuman"),
   web: chalk.cyan("https://yasin.io"),
-  cell: chalk.cyan("+1-415-966-6335"),
+  cell: chalk.cyan("1-415-966-6335"),
   npx: chalk.white("npx yasin"),
   labelWork: chalk.white.bold("      Work:"),
   labelTwitter: chalk.white.bold("   Twitter:"),
@@ -39,7 +39,7 @@ var twittering = `${data.labelTwitter}  ${data.twitter}`;
 var githubing = `${data.labelGitHub}  ${data.github}`;
 var linkedining = `${data.labelLinkedIn}  ${data.linkedin}`;
 var webing = `${data.labelWeb}  ${data.web}`;
-var cell = `${data.labelCell}  ${data.cell}`;
+var cell = `${data.labelCell} ${data.cell}`;
 var carding = `${data.labelCard}  ${data.npx}`;
 
 // Put all our output together into a single variable so we can use boxen effectively
