@@ -1,6 +1,6 @@
 {
-  "name": "bitandbang",
-  "version": "1.1.0",
+  "name": "yasin",
+  "version": "1.1.4",
   "description": "A personal card for Yasin Shuman (@yshuman1)",
   "main": "index.js",
   "bin": {
@@ -14,7 +14,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
+  "author": "Yasin Shuman <email@yasin.io> (http://yasin.io)",
   "license": "MIT",
   "dependencies": {
     "boxen": "^2.1.0",
