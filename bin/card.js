@@ -14,7 +14,6 @@ let options = {
 // Text + chalk definitions
 let data = {
   name: chalk.white("Yasin Shuman /"),
-  handle: chalk.cyan("yasin0424"),
   work: chalk.white("Full Stack Developer"),
   twitter: chalk.cyan("https://twitter.com/yasin0424"),
   telegram: chalk.cyan("https://t.me/yasin0424"),
@@ -24,22 +23,21 @@ let data = {
   linkedin: chalk.cyan("https://linkedin.com/in/yshuman"),
   web: chalk.cyan("https://yasin.io"),
   npx: chalk.white("npx yasin"),
-  labelWork: chalk.white.bold("       Work:"),
   labelTwitter: chalk.white.bold("    Twitter:"),
   labelTelegram: chalk.white.bold("   Telegram:"),
   labelKeybase: chalk.white.bold("    Keybase:"),
   labelWire: chalk.white.bold("       Wire:"),
 
-  labelGitHub: chalk.white.bold("    GitHub:"),
-  labelLinkedIn: chalk.white.bold("  LinkedIn:"),
-  labelWeb: chalk.white.bold("       Web:"),
-  labelCard: chalk.white.bold("      Card:")
+  labelGitHub: chalk.white.bold("     GitHub:"),
+  labelLinkedIn: chalk.white.bold("   LinkedIn:"),
+  labelWeb: chalk.white.bold("        Web:"),
+  labelCard: chalk.white.bold("       Card:")
 };
 
 // Actual strings we're going to output
 var newline = "\n";
-var heading = `${data.name} ${data.handle}`;
-var working = `${data.labelWork}  ${data.work}`;
+var heading = `${data.name} ${data.work}`;
+
 var twittering = `${data.labelTwitter}  ${data.twitter}`;
 var telegraming = `${data.labelTelegram}  ${data.telegram}`;
 var keybasing = `${data.labelKeybase}  ${data.keybase}`;
@@ -55,7 +53,6 @@ let output =
   heading +
   newline +
   newline +
-  working +
   newline +
   twittering +
   newline +
