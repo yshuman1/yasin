@@ -17,17 +17,22 @@ let data = {
   handle: chalk.cyan("yasin0424"),
   work: chalk.white("Full Stack Developer"),
   twitter: chalk.cyan("https://twitter.com/yasin0424"),
+  telegram: chalk.cyan("https://t.me/yasin0424"),
+  keybase: chalk.cyan("https://keybase.io/yas1n"),
+  wire: chalk.cyan("https://keybase.io/yas1n"),
   github: chalk.cyan("https://github.com/yshuman1"),
   linkedin: chalk.cyan("https://linkedin.com/in/yshuman"),
   web: chalk.cyan("https://yasin.io"),
-  cell: chalk.cyan("1-415-966-6335"),
   npx: chalk.white("npx yasin"),
   labelWork: chalk.white.bold("      Work:"),
   labelTwitter: chalk.white.bold("   Twitter:"),
+  labelTelegram: chalk.white.bold("   Telegram:"),
+  labelKeybase: chalk.white.bold("   Keybase:"),
+  labelWire: chalk.white.bold("   Wire:"),
+
   labelGitHub: chalk.white.bold("    GitHub:"),
   labelLinkedIn: chalk.white.bold("  LinkedIn:"),
   labelWeb: chalk.white.bold("       Web:"),
-  labelCell: chalk.white.bold("       Cell:"),
   labelCard: chalk.white.bold("      Card:")
 };
 
@@ -36,10 +41,13 @@ var newline = "\n";
 var heading = `${data.name} ${data.handle}`;
 var working = `${data.labelWork}  ${data.work}`;
 var twittering = `${data.labelTwitter}  ${data.twitter}`;
+var telegraming = `${data.labelTelegram}  ${data.telegram}`;
+var keybasing = `${data.labelKeybase}  ${data.keybase}`;
+var wiring = `${data.labelWire}  ${data.wire}`;
+
 var githubing = `${data.labelGitHub}  ${data.github}`;
 var linkedining = `${data.labelLinkedIn}  ${data.linkedin}`;
 var webing = `${data.labelWeb}  ${data.web}`;
-var cell = `${data.labelCell} ${data.cell}`;
 var carding = `${data.labelCard}  ${data.npx}`;
 
 // Put all our output together into a single variable so we can use boxen effectively
@@ -51,13 +59,17 @@ let output =
   newline +
   twittering +
   newline +
+  telegraming +
+  newline +
+  keybasing +
+  newline +
+  wiring +
+  newline +
   githubing +
   newline +
   linkedining +
   newline +
   webing +
-  newline +
-  cell +
   newline +
   newline +
   carding;
